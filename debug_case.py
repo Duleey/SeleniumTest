@@ -8,9 +8,7 @@ try:
     el = driver.find_element_by_xpath("//a[text()='关于博客园1")
 except:
     driver.get_screenshot_as_file("error_picture\\"+"xxxx"+".png")
-
 print()
-
 
 
 
